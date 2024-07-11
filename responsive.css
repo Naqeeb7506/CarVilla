@@ -1,0 +1,660 @@
+/* responsive start */
+@media screen and (max-width: 1075px) {
+  .service .card .card_item h3 {
+    font-size: 17px;
+    padding: 30px 0;
+  }
+
+  .new .car_box .car_content h1 {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
+  .new .car_box .car_content p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .featured .featured_card {
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px 0;
+  }
+}
+@media screen and (max-width: 1020px) {
+  nav .container ul {
+    gap: 30px;
+  }
+  .hero .content h1 {
+    padding-bottom: 40px;
+    font-size: 35px;
+  }
+  .hero .content p {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  .hero .content .btn,
+  .new .car_box .car_content .btn {
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+  .service .card .card_icon {
+    font-size: 45px;
+  }
+  .service .card .card_item h3 {
+    font-size: 17px;
+    padding: 30px 0;
+  }
+
+  .service .card .card_item p {
+    font-size: 14px;
+  }
+  .contact .dev h4,
+.contact .top h4,
+.contact .news h4{
+  font-size: 13px;
+}
+.contact .first .text {
+  padding: 40px 0 20px 0;
+  font-size: 15px;
+}
+.contact .first p {
+  font-size: 15px;
+}
+}
+
+@media screen and (max-width: 920px) {
+  nav .container ul {
+    gap: 20px;
+  }
+  nav .container ul li a {
+    font-size: 14px;
+  }
+  nav .container .logo h1 a {
+    font-size: 22px;
+  }
+  .hero .content h1 {
+    padding-bottom: 35px;
+    font-size: 30px;
+  }
+  .hero .content p {
+    font-size: 18px;
+    padding-bottom: 25px;
+  }
+  .hero .content .btn,
+  .new .car_box .car_content .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .service .card_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .service .card_container .card {
+    padding: 40px 20px;
+  }
+  .service .card .card_icon {
+    font-size: 50px;
+  }
+  .service .card .card_item h3 {
+    font-size: 20px;
+    padding: 30px 0;
+  }
+
+  .service .card .card_item p {
+    font-size: 15px;
+  }
+  .new .title h1,
+  .featured .title h1,
+  .clients .title h1 {
+    padding-bottom: 18px;
+  }
+  .new .container .car_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 0;
+  }
+  .new .car_box .car_img {
+    width: 700px;
+  }
+  .new .car_box .car_img img {
+    width: 100%;
+  }
+  .new .container .car_content {
+    width: 80%;
+  }
+  .featured .featured_card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 25px 0;
+  }
+  .featured_card .f_cart .border {
+    width: 100%;
+  }
+  .featured_card .f_cart .specs {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.clients .client_card{
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.clients .client_card .c_cart {
+  padding: 25px;
+  gap: 15px;
+  transition: all 0.5s linear;
+}
+.brand{
+  padding: 80px 0;
+}
+.brand .brand_imgs{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.brand .brand_imgs .img_box{
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.brand .brand_imgs .img_box img{
+  width: 100%;
+}
+.contact .container{
+  padding: 80px 0;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  /* align-items: center; */
+  gap: 50px;
+}
+
+}
+
+@media screen and (max-width: 770px) {
+  nav .container ul {
+    gap: 15px;
+  }
+  nav .container ul li a {
+    font-size: 12px;
+  }
+  nav .container .logo h1 a {
+    font-size: 20px;
+  }
+  .hero .content h1 {
+    padding-bottom: 30px;
+    font-size: 25px;
+  }
+  .hero .content p {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .hero .content .btn,
+  .new .car_box .car_content .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .service .card .card_icon {
+    font-size: 45px;
+  }
+  .service .card .card_item h3 {
+    font-size: 18px;
+    padding: 25px 0;
+  }
+
+  .service .card .card_item p {
+    font-size: 14px;
+  }
+
+  .new .title h1,
+  .featured .title h1,
+  .clients .title h1  {
+    padding-bottom: 12px;
+    font-size: 28px;
+  }
+  .new .container .car_box {
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0;
+  }
+  .new .car_box .car_img {
+    width: 550px;
+  }
+  .new .car_box .car_img img {
+    width: 100%;
+  }
+  .new .car_box .car_content h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  .new .car_box .car_content p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .new .title h3,
+  .featured .title h3 {
+    padding-bottom: 15px;
+    font-size: 16px;
+  }
+  .featured .featured_card {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 20px 0;
+  }
+  .featured_card .f_cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .featured_card .f_cart .border {
+    width: 50%;
+  }
+  .featured_card .f_cart .specs {
+    padding-top: 10px ;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+}
+
+@media screen and (max-width: 650px) {
+  nav {
+    padding: 15px;
+  }
+  nav .container {
+    justify-content: center;
+  }
+  nav .container ul {
+    display: none;
+  }
+  nav .hamburger {
+    display: block;
+  }
+  .hero .content h1 {
+    padding-bottom: 30px;
+    font-size: 24px;
+  }
+  .hero .content p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .hero .content .btn,
+  .new .car_box .car_content .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .service .card .card_icon {
+    font-size: 40px;
+  }
+  .service .card .card_item h3 {
+    font-size: 16px;
+    padding: 25px 0;
+  }
+
+  .service .card .card_item p {
+    font-size: 12px;
+  }
+  .new .car_box .car_content p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .clients .client_card{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .clients .client_card .c_cart {
+    padding: 20px;
+    gap: 10px;
+    transition: all 0.5s linear;
+
+  }
+  .contact .dev h4,
+.contact .top h4,
+.contact .news h4{
+  font-size: 11px;
+}
+.contact .first .text {
+  padding: 30px 0 15px 0;
+  font-size: 12px;
+}
+.contact .first p {
+  font-size: 12px;
+}
+.contact .dev ul li a,
+.contact .top ul li a{
+  font-size: 12px;
+}
+.news form p {
+  font-size: 12px;
+}
+}
+
+@media screen and (max-width: 570px) {
+  .service, .clients{
+    padding: 80px 0;
+  }
+
+  .service .card_container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .service .card_container .card {
+    padding: 30px 20px;
+  }
+  .service .card .card_icon {
+    font-size: 40px;
+  }
+  .service .card .card_item h3 {
+    font-size: 18px;
+    padding: 15px 0;
+  }
+
+  .service .card .card_item p {
+    font-size: 14px;
+  }
+  .new,
+  .featured {
+    padding: 40px 0;
+  }
+  .new .title h1,
+  .featured .title h1,
+  .clients .title h1 {
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+  .new .container .car_box {
+    gap: 30px;
+    padding: 30px 0;
+  }
+  .new .car_box .car_img {
+    width: 450px;
+  }
+  .new .car_box .car_img img {
+    width: 100%;
+  }
+  .new .container .car_content {
+    width: 100%;
+  }
+  .new .car_box .car_content h1 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .new .car_box .car_content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .new .title h3,
+  .featured .title h3 {
+    padding-bottom: 15px;
+    font-size: 15px;
+  }
+  .featured .featured_card {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 10px 0;
+  }
+  .featured_card .f_cart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .featured_card .f_cart .border {
+    width: 100%;
+  }
+  .featured_card .f_cart .specs {
+    padding-top: 10px ;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.featured_card .f_cart .f_content {
+  padding: 12px 8px;
+  font-size: 13px;
+}
+.featured_card .f_cart .specs h4 {
+  font-size: 15px;
+}
+.clients .client_card .c_cart .c_content .intro {
+  padding: 10px 0;
+  font-size: 15px;
+}
+.clients .client_card .c_cart .c_content p {
+  font-size: 15px;
+}
+footer .container .copy {
+  font-size: 15px;
+}
+}
+@media screen and (max-width: 460px) {
+  nav {
+    padding: 12px;
+  }
+  .service, .clients{
+    padding: 60px 0;
+  }
+  .new .title h1,
+  .featured .title h1,
+  .clients .title h1  {
+    padding-bottom: 10px;
+    font-size: 22px;
+  }
+  .new .container .car_box {
+    gap: 20px;
+    padding: 30px 0;
+  }
+  .new .car_box .car_img {
+    width: 350px;
+  }
+  .new .car_box .car_img img {
+    width: 100%;
+  }
+  .new .container .car_content {
+    width: 100%;
+  }
+  .new .car_box .car_content h1 {
+    font-size: 20px;
+    padding-bottom: 18px;
+  }
+  .new .car_box .car_content p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .new .title h3,
+  .featured .title h3 {
+    padding-bottom: 12px;
+    font-size: 12px;
+  }
+  .contact .dev h4,
+.contact .top h4,
+.contact .news h4{
+  font-size: 10px;
+}
+.contact .first .text {
+  padding: 30px 0 15px 0;
+  font-size: 12px;
+}
+.contact .first p {
+  font-size: 12px;
+}
+.contact .dev ul li a,
+.contact .top ul li a{
+  font-size: 12px;
+}
+.news form p {
+  font-size: 12px;
+}
+.contact .container{
+  padding: 60px 0;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+.contact .dev ul, .contact .top ul {
+  padding-top: 20px;
+  gap: 10px;
+}
+.news form {
+  padding-top: 20px;
+}
+footer .container .copy{
+  font-size: 12px;
+}
+footer .container ul {
+  gap: 20px;
+}
+}
+
+@media screen and (max-width: 360px) {
+  nav {
+    padding: 10px;
+  }
+  .service, .clients {
+    padding: 40px 0;
+  }
+  .new,
+  .featured {
+    padding: 30px 0;
+  }
+  .new .title h1,
+  .featured .title h1,
+  .clients .title h1  {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .new .container .car_box {
+    gap: 20px;
+    padding: 20px 0;
+  }
+  .new .car_box .car_img {
+    width: 280px;
+  }
+  .new .car_box .car_img img {
+    width: 100%;
+  }
+  .new .container .car_content {
+    width: 100%;
+  }
+  .new .car_box .car_content h1 {
+    font-size: 20px;
+    padding-bottom: 18px;
+  }
+  .new .car_box .car_content p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .featured_card .f_cart .border {
+    width: 80%;
+}
+.featured_card .f_cart .specs {
+  padding-top: 8px;
+  padding-left: 32px;
+  gap: 4px;
+}
+footer .container{
+  padding: 20px 0;
+  color: #666c81;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+}
+
+@media screen and (max-width: 320px) {
+  .hero .content h1 {
+    padding-bottom: 30px;
+    font-size: 22px;
+  }
+  .hero .content p {
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+  .hero .content .btn,
+  .new .car_box .car_content .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .service, .clients {
+    padding: 30px 0;
+  }
+  .service .card_container {
+    gap: 30px;
+  }
+  .service .card_container .card {
+    padding: 25px 15px;
+  }
+  .service .card .card_icon {
+    font-size: 35px;
+  }
+  .service .card .card_item h3 {
+    font-size: 16px;
+    padding: 12px 0;
+  }
+
+  .service .card .card_item p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .service, .clients{
+    padding: 20px 0;
+  }
+  .new,
+  .featured {
+    padding: 20px 0;
+  }
+  .new .car_box .car_img {
+    width: 220px;
+  }
+  .new .car_box .car_img img {
+    width: 100%;
+  }
+  .new .container .car_content {
+    width: 100%;
+  }
+  .new .car_box .car_content h1 {
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+  .new .car_box .car_content p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .new .title h3,
+  .featured .title h3 {
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+  .featured_card .f_cart .border {
+    width: 70%;
+}
+.featured_card .f_cart .specs {
+  padding-top: 8px;
+  padding-left: 47px;
+  gap: 4px;
+}
+}
+/* responsive end */
